@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* container size */
 .max-w-1160 {
   max-width: 1160px !important;
+}
+
+.max-w-1060 {
+  max-width: 1060px !important;
 }
 
 /* font family */
@@ -21,6 +26,10 @@
 
 .lh-128 {
   line-height: 128%;
+}
+
+.lh-162 {
+  line-height: 162%;
 }
 
 /* hero */
@@ -85,6 +94,43 @@
   padding-bottom: 160px;
 }
 
+/* instant */
+.fs-45 {
+  font-size: 45px;
+}
+
+.color-dark-grey {
+  color: #2B353E;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.color-light-grey {
+  color: #2B353EB2;
+}
+
+.max-w-566 {
+  max-width: 566px;
+}
+
+.max-h-663 {
+  max-height: 663px;
+}
+
+.pt-90 {
+  padding-top: 90px;
+}
+
+.pb-180 {
+  padding-bottom: 180px;
+}
+
 @media (max-width:991.98px) {
   .pt-134 {
     padding-top: 120px;
@@ -111,6 +157,14 @@
   .fs-75 {
     font-size: 52px;
   }
+
+  .pt-90 {
+    padding-top: 80px;
+  }
+
+  .pb-180 {
+    padding-bottom: 80px;
+  }
 }
 
 @media (max-width:575.98px) {
@@ -131,6 +185,22 @@
   }
 
   .pb-160 {
+    padding-bottom: 40px;
+  }
+
+  .fs-45 {
+    font-size: 32px;
+  }
+
+  .mb-30 {
+    margin-bottom: 20px;
+  }
+
+  .pt-90 {
+    padding-top: 40px;
+  }
+
+  .pb-180 {
     padding-bottom: 40px;
   }
 }
