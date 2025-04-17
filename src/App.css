@@ -131,6 +131,108 @@
   padding-bottom: 180px;
 }
 
+/* perfect */
+.max-w-816 {
+  max-width: 816px;
+}
+
+.bg-light-sky {
+  background-color: #E9F1FF;
+}
+
+.pt-166 {
+  padding-top: 166px;
+}
+
+.pb-209 {
+  padding-bottom: 209px;
+}
+
+.gap-30 {
+  gap: 30px;
+}
+
+.fs-17 {
+  font-size: 17px;
+}
+
+.try-btn-2 {
+  border-radius: 60px;
+  padding: 16.5px 46px;
+  transition: all 200ms linear;
+}
+
+.try-btn-2:hover {
+  background-color: #1E71FFBF;
+}
+
+.get-btn-2 {
+  border: 1px solid #1E71FF;
+  color: #1E71FF;
+  border-radius: 60px;
+  padding: 15.5px 39.5px;
+  transition: all 200ms linear;
+}
+
+.get-btn-2:hover {
+  color: white;
+  background-color: #1E71FFBF !important;
+  border: 1px solid #1E71FFBF;
+}
+
+.line {
+  width: 167px;
+  height: 1px;
+  background-color: #2B353E26;
+  margin-top: 90px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.gap-25 {
+  gap: 25px;
+}
+
+.max-w-274 {
+  max-width: 274px;
+}
+
+.top-124 {
+  top: 124px;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.max-w-467 {
+  max-width: 467px;
+}
+
+@media (min-width:1200px) {
+  .position-lg-absolute {
+    position: absolute;
+  }
+}
+
+@media (max-width:1350.98px) {
+  .max-w-816 {
+    max-width: 700px;
+  }
+
+  .top-124 {
+    top: 17%;
+  }
+}
+
+@media (max-width:1199.98px) {
+  .max-w-816 {
+    max-width: 816px;
+  }
+}
+
 @media (max-width:991.98px) {
   .pt-134 {
     padding-top: 120px;
@@ -138,6 +240,22 @@
 
   .pb-160 {
     padding-bottom: 120px;
+  }
+
+  .pt-166 {
+    padding-top: 120px;
+  }
+
+  .pb-209 {
+    padding-bottom: 120px;
+  }
+
+  .mb-60 {
+    margin-bottom: 45px;
+  }
+
+  .line {
+    margin-top: 50px;
   }
 }
 
@@ -164,6 +282,18 @@
 
   .pb-180 {
     padding-bottom: 80px;
+  }
+
+  .pt-166 {
+    padding-top: 80px;
+  }
+
+  .pb-209 {
+    padding-bottom: 80px;
+  }
+
+  .line {
+    margin-top: 35px;
   }
 }
 
@@ -202,5 +332,33 @@
 
   .pb-180 {
     padding-bottom: 40px;
+  }
+
+  .pt-166 {
+    padding-top: 40px;
+  }
+
+  .pb-209 {
+    padding-bottom: 40px;
+  }
+
+  .gap-30 {
+    gap: 15px;
+  }
+
+  .line {
+    margin-top: 20px;
+  }
+
+  .mt-40 {
+    margin-top: 24px;
+  }
+
+  .try-btn-2 {
+    padding: 16.5px 44px;
+  }
+
+  .get-btn-2 {
+    padding: 15.5px 37px;
   }
 }
