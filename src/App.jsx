@@ -4,8 +4,8 @@ import Header from './components/Header';
 import Hero from './components/Hero'
 import Instant from './components/Instant';
 import Perfect from './components/Perfect';
-import { Suspense } from 'react';
 import Footer from './components/footer';
+import BackToTop from './components/BackToTop';
 function App() {
   return (
     <>
@@ -14,7 +14,7 @@ function App() {
       <Instant />
       <Perfect />
       <Footer />
-
+      <BackToTop />
     </>
   )
 }

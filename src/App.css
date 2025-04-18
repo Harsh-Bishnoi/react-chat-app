@@ -307,6 +307,24 @@
   font-size: 15px;
 }
 
+/* back to top */
+.back-to-top-btn {
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  transition: all 300ms linear;
+  background-color: transparent;
+  height: 40px;
+  width: 40px;
+}
+
+.back-to-top-btn:hover {
+  background-color: #1E71FF;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+}
+
 @media (min-width:992px) {
   .max-w-168 {
     max-width: 168px;
