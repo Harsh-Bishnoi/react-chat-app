@@ -75,12 +75,12 @@
   background-color: #fff;
 }
 
-.rotate40 {
-  transform: rotate(40deg);
+.rotate-42 {
+  transform: rotate(42deg);
 }
 
-.rotate-45 {
-  transform: rotate(-44deg);
+.rotate-43 {
+  transform: rotate(-43deg);
 }
 
 .bg-transparent {
@@ -205,10 +205,6 @@
 
 .pb-209 {
   padding-bottom: 209px;
-}
-
-.gap-30 {
-  gap: 30px;
 }
 
 .fs-17 {
@@ -340,7 +336,6 @@
 }
 
 @media (max-width:991.98px) {
-
   .nav-link {
     flex-direction: column;
     background: #1E71FF !important;
