@@ -25,10 +25,10 @@ const Nav = () => {
                         <span className={`menu-lines ${menuOpen ? "rotate-43" : ""}`}></span>
                     </div>
                     <ul id='nav-name' className={`list-unstyled d-flex justify-content-center align-items-center nav-link gap-30 mb-0 ${menuOpen ? "show-navbar" : ""}`}>
-                        <li><a className='font-family-second fw-medium fs-14 lh-100 text-white text-decoration-none' href="">Product</a></li>
-                        <li><a className='font-family-second fw-medium fs-14 lh-100 text-white text-decoration-none' href="">Services</a></li>
-                        <li><a className='font-family-second fw-medium fs-14 lh-100 text-white text-decoration-none' href="">Contact</a></li>
-                        <li><a className='font-family-second fw-medium fs-14 lh-100 text-white text-decoration-none' href="">Log In</a></li>
+                        <li><a className='font-family-second nav-links fw-medium fs-14 lh-100 text-white text-decoration-none' href="">Product</a></li>
+                        <li><a className='font-family-second nav-links fw-medium fs-14 lh-100 text-white text-decoration-none' href="">Services</a></li>
+                        <li><a className='font-family-second nav-links fw-medium fs-14 lh-100 text-white text-decoration-none' href="">Contact</a></li>
+                        <li><a className='font-family-second nav-links fw-medium fs-14 lh-100 text-white text-decoration-none' href="">Log In</a></li>
                         <li><button className='nav-btn font-family-second fw-medium fs-14 lh-100 text-white text-center border-0'>Try It Free</button></li>
                     </ul>
                 </div>

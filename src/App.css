@@ -58,6 +58,12 @@
   padding: 13px 24.5px;
   background: #FFFFFF33;
   border-radius: 210px;
+  transition: all 300ms linear;
+}
+
+.nav-btn:hover {
+  background-color: white !important;
+  color: #1E71FF !important;
 }
 
 .fs-14 {
@@ -89,6 +95,14 @@
 
 .z-5 {
   z-index: 5;
+}
+
+.nav-links {
+  transition: all 300ms linear;
+}
+
+.nav-links:hover {
+  text-decoration: underline !important;
 }
 
 /* hero */
