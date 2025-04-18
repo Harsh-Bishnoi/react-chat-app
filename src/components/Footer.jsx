@@ -61,7 +61,7 @@ const Footer = () => {
                     </div>
                     <div class="font-family-second color-light-grey lh-162 fw-normal fs-13 mb-30 mt-180">© Copyright ChatApp Inc.</div>
                 </div>
-            </div>
+            </div >
         </>
     )
 }
